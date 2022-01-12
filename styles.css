@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 a{
     text-decoration: none;
     outline: none;
@@ -24,6 +28,8 @@ body{
 
 .navbar{
     background: #ffcd48;
+    position: sticky;
+    top: 0;
 }
 
 .navbar a{
@@ -106,6 +112,8 @@ aside{
     -moz-border-radius: 3px;
     -ms-border-radius: 3px;
     -o-border-radius: 3px;
+    position:sticky;
+    top: 20px;
 }
 
 aside .titulo{
@@ -120,6 +128,15 @@ aside .indice a{
     display:block;
     margin-top: 10px;
     color: #ffcd48;
+}
+
+/* * ============================== */
+/* * ====== FOOOOOOOTER ========= */
+/* * ============================== */
+
+footer .navbar{
+    position:sticky;
+    bottom:0;
 }
 
 /* * ============================== */
